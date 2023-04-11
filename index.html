@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+    <style>
+        .container{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        .tableBox{
+            margin: 10px;
+            padding: 10px;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="container" >
+
+   
+    
+    <form action="">
+        <h1>Contact Details</h1>
+        <label for="name">Name:</label>
+        <input type="text" placeholder="enter your name" value="">
+        <br><br>
+        <label for="number">Phone No:</label>
+        <input type="number" placeholder="enter your phone number">
+        <br><br>
+        <label for="date">Date of Birth</label>
+        <input type="date">
+        <br><br>
+        
+        <label for="address">Address:</label> <textarea name="" id="" cols="30" rows="10" placeholder="enter your permanent address"></textarea>
+        
+        <p>Gender:</p>
+        <label for="male">Male</label>
+        <input  id="male" type="radio" name="gender" value="male"> 
+        <label for="female">Female</label>
+        <input id="female" type="radio" name="gender" value="female">
+        <label for="trans">Transgender</label>
+        <input id="trans" type="radio" name="gender" value="trans">
+        <label for="others">Others</label>
+        <input id="others" type="radio" name="gender" value="others">
+        <br><br>
+        <label for="city">Choose city:</label>
+        <select name="city" id="city">
+            <option value="delhi">Delhi</option>
+            <option value="Lucknow">Lucknow</option>
+            <option value="Indore">Indore</option>
+            <option value="Gwalior">Gwalior</option>
+
+        </select>
+        <br><br>
+        <p>Hobbies:</p>
+        <label for="badminton">Badminton</label>
+        <input type="checkbox" id="badminton" value="badminton">
+        
+        <label for="tt">TT</label>
+        <input type="checkbox" id="tt" value="tt">
+
+        <label for="drawing">Drawing</label>
+        <input type="checkbox" id="drawing" value="drawing">
+        <br><br>
+
+        <input type="submit">
+        <br><br>
+
+
+        <input type="reset">
+
+    </form>
+
+
+    
+</div>
+
+<div class="container">
+    <table style="border: solid " class="tableBox">
+        <thead>
+            <tr>
+                <th>S.no</th>
+                <th>Name</th>
+                <th>Phone</th>
+                <th>Gender</th>
+                <th>DOB</th>
+                <th>Interest</th>
+        
+               </tr>
+
+        </thead>
+            <tr>
+                <td rowspan="3">1</td>
+                <td rowspan="3">Akash</td>
+                <td rowspan="3">123-456-789</td>
+                <td rowspan="3">Male</td>
+                <td rowspan="3">07-09-2001</td>
+              
+                <td>Badminton</td>
+                
+            </tr>
+            <tr>
+                
+                <td>Hockey</td>
+                
+            </tr>
+            <tr>
+                <td>Table tennis</td>
+            </tr>
+        <tr>
+            <tr>
+                <td rowspan="3">1</td>
+                <td rowspan="3">Akash</td>
+                <td rowspan="3">123-456-789</td>
+                <td rowspan="3">Male</td>
+                <td rowspan="3">07-09-2001</td>
+              
+                <td>Badminton</td>
+                
+            </tr>
+            <tr>
+                
+                <td>Hockey</td>
+                
+            </tr>
+            
+        <tr>
+        
+
+     
+       
+    </table>
+</div>
+
+
+
+
+   
+    
+</body>
+</html>
